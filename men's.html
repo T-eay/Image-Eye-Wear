@@ -1,0 +1,2082 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Eye Wear</title>
+
+
+   <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/glasses-logo-removebg-preview.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+
+  <!--
+    - MODAL
+  -->
+
+  <div class="modal" data-modal>
+
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="./assets/images/glasses-logo-removebg-preview.png" alt="subscribe newsletter" width="400" height="400">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="https://formsubmit.co/kutapiratapex@gmail.com" method="POST">
+
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Subscribe Newsletter.</h3>
+
+            <p class="newsletter-desc">
+              Subscribe to <b>Image Eye Wear</b> for latest products and discount updates.
+            </p>
+
+          </div>
+
+          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+
+          <button type="submit" class="btn-newsletter">Subscribe</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - NOTIFICATION TOAST
+  -->
+
+  <div class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="./assets/images/gucci.jpg" alt="glasses" width="80" height="70">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-message">
+        Someone in new just bought
+      </p>
+
+      <p class="toast-title">
+        Gucci Glasses
+      </p>
+
+      <p class="toast-meta">
+        <time datetime="PT2M">8 Minutes</time> ago
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+        <div class="header-alert-news">
+          <p>
+            <b>+263 77 228 8633</b>
+            
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+
+          <select name="currency">
+
+            <option value="usd">USD &dollar;</option>
+      
+
+          </select>
+
+          <select name="language">
+
+            <option value="en-US">English</option>
+            <option value="es-ES">Shona</option>
+            <option value="fr">Ndebele</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <img src="./assets/images/glasses-logo-removebg-preview.png" alt="image eye logo" width="120" height="36">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="index.html" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Categories</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Women's</a>
+                </li>
+              
+        
+              
+             
+                <li class="panel-list-item">   
+                  <a href="#">  Cat Eye</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">  Oval</a>
+                </li>
+
+                
+                <li class="panel-list-item">
+                    <a href="#">   Modern Rectangle</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">   Rectangle</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">   Round </a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">     Square </a>
+                  </li>
+  
+
+              
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/glass-banner.avif" alt="banner" width="250"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Men's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#"> Ray-Ban</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Casual</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">classic</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Sherif</a>
+                </li>
+
+                <li class="panel-list-item">
+                    <a href="#">Round</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Square</a>
+                  </li>
+
+                <li class="panel-list-item">
+                  <a href="#"></a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/banaopt.webp" alt="banner" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Unisex</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Formal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Casual</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Round</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Square</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Rectangle</a>
+                </li>
+                <li class="panel-list-item">
+                    <a href="#">Oval</a>
+                  </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/glass-banner.avif" alt="banner" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Optical</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Cartegory 1</a>
+                </li>
+
+                <li class="panel-list-item">
+                    <a href="#">Cartegory 2</a>
+                </li>
+
+                <li class="panel-list-item">
+                    <a href="#">Cartegory 3</a>
+                </li>
+
+                <li class="panel-list-item">
+                    <a href="#">Cartegory 4</a>
+                </li>
+
+                <li class="panel-list-item">
+                    <a href="#">Cartegory 5</a>
+                </li>
+
+                <li class="panel-list-item">
+                    <a href="#">Cartegory 6</a>
+                </li>
+
+             
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/opt.webp" alt="banner" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="men's.html" class="menu-title">Men's</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="men's.html">Gucci</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="men's.html">Lacoste</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="men's.html">Rayban</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="men's.html">Luis Vuton</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="women's.html" class="menu-title">Women's</a>
+
+            <ul class="dropdown-list">
+
+                <li class="dropdown-item">
+                    <a href="women's.html">Gucci</a>
+                  </li>
+    
+                  <li class="dropdown-item">
+                    <a href="women's.html">Lacoste</a>
+                  </li>
+    
+                  <li class="dropdown-item">
+                    <a href="women's.html">Rayban</a>
+                  </li>
+    
+                  <li class="dropdown-item">
+                    <a href="women's.html">Luis Vuton</a>
+                  </li>
+    
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#featured" class="menu-title">Unisex</a>
+
+            <ul class="dropdown-list">
+
+                <li class="dropdown-item">
+                    <a href="#featured">Gucci</a>
+                  </li>
+    
+                  <li class="dropdown-item">
+                    <a href="#featured">Lacoste</a>
+                  </li>
+    
+                  <li class="dropdown-item">
+                    <a href="#featured">Rayban</a>
+                  </li>
+    
+                  <li class="dropdown-item">
+                    <a href="#featured">Luis Vuton</a>
+                  </li>
+    
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#featured" class="menu-title">Optical</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#featured">Rayban</a>
+              </li>
+
+
+            </ul>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="index.html" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <li class="menu-category">
+            <a href="men's.html" class="menu-title">Men Section</a>
+          </li>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="men's.html" class="submenu-title">Gucci</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="men's.html" class="submenu-title">
+                Lacoste
+                </a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="men's.html" class="submenu-title">
+                
+                Rayban
+                </a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="men's.html" class="submenu-title">Luis Vuton</a>
+            </li>
+
+            <li class="submenu-category">
+                <a href="men's.html" class="submenu-title">Prada</a>
+              </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="women's.html" class="menu-title">Women's Section</a>
+        </li>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="women's.html" class="submenu-title">Gucci</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="women's.html" class="submenu-title">Lacoste</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="women's.html" class="submenu-title">Luis Vuton</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="women's.html" class="submenu-title">Rayban</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="index.html" class="menu-title">Unisex</a>
+        </li>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#featured" class="submenu-title">Gucci</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#featured" class="submenu-title">Lacoste</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#featured" class="submenu-title">Rayban</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#featured" class="submenu-title">Luis Vuton</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="index.html" class="menu-title">Optical Section</a>
+        </li>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#featured" class="submenu-title">RayBan</a>
+            </li>
+
+            <li class="submenu-category">
+                <a href="#featured" class="submenu-title">Round</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#featured" class="submenu-title">Square</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#featured" class="submenu-title">Rectangle</a>
+              </li>
+
+          </ul>
+
+        </li>
+
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-category-list">
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Shona</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Ndebele</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Currency</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">USD &dollar;</a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+      <div class="container">
+
+        <div class="slider-container has-scrollbar">
+
+        
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./assets/images/glass-hero2.jpg" alt="glasses" class="banner-img" >
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">IMAGE EYE WEAR</p>
+
+              <h2 class="banner-title">Men's Section</h2>
+
+              <p class="banner-text">
+                starting at &dollar; <b>40</b>.00
+              </p>
+
+              <a href="#feautured" class="banner-btn">Shop now</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+    <!--
+      - CATEGORY
+    -->
+
+    <div class="category">
+
+      <div class="container">
+
+        <div class="category-item-container has-scrollbar">
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/gucci.jpg" alt="glasses" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Gucci</h3>
+
+                <p class="category-item-amount">(53)</p>
+              </div>
+
+              <a href="#feaured" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/Luis.avif" alt="glasses" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Luis Vuitton</h3>
+
+                <p class="category-item-amount">(58)</p>
+              </div>
+
+              <a href="#feautured" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/lacoste.png" alt="glasses" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Lacoste</h3>
+
+                <p class="category-item-amount">(68)</p>
+              </div>
+
+              <a href="#feautured" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/prada.jpg" alt="glasses" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Prada</h3>
+
+                <p class="category-item-amount">(84)</p>
+              </div>
+
+              <a href="#feautured" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/dior.png" alt="glasses" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Dior</h3>
+
+                <p class="category-item-amount">(35)</p>
+              </div>
+
+              <a href="#feautured" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/ray.png" alt="glasses" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Ray-Ban</h3>
+
+                <p class="category-item-amount">(16)</p>
+              </div>
+
+              <a href="#featured" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/may.png" alt="glasses" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Maybach</h3>
+
+                <p class="category-item-amount">(27)</p>
+              </div>
+
+              <a href="#featured" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/fendi.png" alt="glasses" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Fendi</h3>
+
+                <p class="category-item-amount">(39)</p>
+              </div>
+
+              <a href="#featured" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - PRODUCT
+    -->
+
+
+    <section class="featured" id="featured">
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <h1 class="heading"> GUCCI</h1>
+    
+        <div class="swiper featured-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide box">
+                        <img src="Graz/GUCCI-1.jpg" alt="">
+                        <h3>Gucci</h3>
+                        <div class="price">$40</div>
+                        <a href="#contact" class="btn">order</a>
+                    </div>
+        
+                    
+        
+                    <div class="swiper-slide box">
+                        <img src="Graz/GUCCI-2.jpg" alt="">
+                        <h3>Gucci</h3>
+                        <div class="price">$40</div>
+                        <a href="#contact" class="btn">order</a>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Graz/GUCCI-3.jpg" alt="">
+                        <h3>Gucci</h3>
+                        <div class="price">$40</div>
+                        <a href="#contact" class="btn">order</a>
+                    </div>
+        
+                    
+        
+                    <div class="swiper-slide box">
+                        <img src="Graz/GUCCI-4.jpg" alt="">
+                        <h1>Gucci</h1>
+                    
+                        <div class="price">$40</div>
+                        <a href="#contact" class="btn">order</a>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Graz/GUCCI.jpg" alt="">
+                        <h3>Gucci</h3>
+                       
+                        <div class="price">$40</div>
+                        <a href="#contact" class="btn">order</a>
+                    </div>
+    
+                    <div class="swiper-slide box">
+                        <img src="Graz/GUCCI-3.jpg" alt="">
+                        <h3>Gucci</h3>
+                       
+                        <div class="price">$40</div>
+                        <a href="#contact" class="btn">order</a>
+                    </div>
+        
+        
+                </div>
+        
+                
+        
+            </div>
+
+
+
+            <h1 class="heading">Luis Vuitton</h1>
+    
+            <div class="swiper featured-slider">
+            
+                    <div class="swiper-wrapper">
+            
+                        <div class="swiper-slide box">
+                            <img src="Graz/LV1MEN1.jpg" alt="">
+                            <h3>Luis Vuitton</h3>
+                            <div class="price">$40</div>
+                            <a href="#contact" class="btn">order</a>
+                        </div>
+            
+                        
+            
+                        <div class="swiper-slide box">
+                            <img src="Graz/LV.jpg" alt="">
+                            <h3>Luis Vuitton</h3>
+                            <div class="price">$40</div>
+                            <a href="#contact" class="btn">order</a>
+                        </div>
+            
+                        <div class="swiper-slide box">
+                            <img src="Graz/LV-1.jpg" alt="">
+                            <h3>Luis Vuitton</h3>
+                            <div class="price">$40</div>
+                            <a href="#contact" class="btn">order</a>
+                        </div>
+            
+                        
+            
+                        <div class="swiper-slide box">
+                            <img src="Graz/LV-m-2.jpg" alt="">
+                            <h3>Luis Vuitton</h3>
+                        
+                            <div class="price">$40</div>
+                            <a href="#contact" class="btn">order</a>
+                        </div>
+            
+                        <div class="swiper-slide box">
+                            <img src="Graz/Lv-M-1.jpg" alt="">
+                            <h3>Luis Vuitton</h3>
+                           
+                            <div class="price">$40</div>
+                            <a href="#contact" class="btn">order</a>
+                        </div>
+        
+                
+            
+            
+                    </div>
+            
+                    
+            
+                </div>
+    
+
+
+
+            <h1 class="heading"> PRADA</h1>
+    
+            <div class="swiper featured-slider">
+            
+                    <div class="swiper-wrapper">
+            
+                        <div class="swiper-slide box">
+                            <img src="Graz/PRADA-1.jpg" alt="">
+                            <h3>Prada</h3>
+                            <div class="price">$40</div>
+                            <a href="#contact" class="btn">order</a>
+                        </div>
+            
+                        
+            
+                        <div class="swiper-slide box">
+                            <img src="Graz/PRADA-2.jpg" alt="">
+                            <h3>Prada</h3>
+                            <div class="price">$40</div>
+                            <a href="#contact" class="btn">order</a>
+                        </div>
+            
+                        <div class="swiper-slide box">
+                            <img src="Graz/PRADA-3.jpg" alt="">
+                            <h3>Prada</h3>
+                            <div class="price">$40</div>
+                            <a href="#contact" class="btn">order</a>
+                        </div>
+            
+                        
+            
+                        <div class="swiper-slide box">
+                            <img src="Graz/PRADA-4.jpg" alt="">
+                            <h1>Prada</h1>
+                        
+                            <div class="price">$40</div>
+                            <a href="#contact" class="btn">order</a>
+                        </div>
+            
+                        <div class="swiper-slide box">
+                            <img src="Graz/PRADA-5.jpg" alt="">
+                            <h3>Prada</h3>
+                           
+                            <div class="price">$40</div>
+                            <a href="#contact" class="btn">order</a>
+                        </div>
+        
+                        <div class="swiper-slide box">
+                            <img src="Graz/PRADA-10 (2).jpg" alt="">
+                            <h3>Prada</h3>
+                           
+                            <div class="price">$40</div>
+                            <a href="#contact" class="btn">order</a>
+                        </div>
+            
+            
+                    </div>
+            
+                    
+            
+                </div>
+    
+
+
+                <h1 class="heading">CARTIER</h1>
+    
+                <div class="swiper featured-slider">
+                
+                        <div class="swiper-wrapper">
+                
+                            <div class="swiper-slide box">
+                                <img src="Women/CARTIER-1.jpg" alt="">
+                                <h3>Cartier</h3>
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            
+                
+                            <div class="swiper-slide box">
+                                <img src="Women/CARTIER-2.jpg" alt="">
+                                <h3>Cartier</h3>
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            <div class="swiper-slide box">
+                                <img src="Women/CARTIER-3.jpg" alt="">
+                                <h3>Cartier</h3>
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            
+                
+                            <div class="swiper-slide box">
+                                <img src="Women/CARTIER-4.jpg" alt="">
+                                <h3>Cartier</h3>
+                            
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            <div class="swiper-slide box">
+                                <img src="Women/CARTIER-5.jpg" alt="">
+                                <h3>Cartier</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+            
+                            <div class="swiper-slide box">
+                                <img src="Women/CARTIER-6.jpg" alt="">
+                                <h3>Cartier</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+
+                            <div class="swiper-slide box">
+                                <img src="Women/CARTIER-7.jpg" alt="">
+                                <h3>Cartier</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+
+                            <div class="swiper-slide box">
+                                <img src="Women/CARTIER-8.jpg" alt="">
+                                <h3>Cartier</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+
+                            <div class="swiper-slide box">
+                                <img src="Women/CARTIER-9.jpg" alt="">
+                                <h3>Cartier</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+
+                            <div class="swiper-slide box">
+                                <img src="Women/CARTIER-10.jpg" alt="">
+                                <h3>Cartier</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                
+                        </div>
+                
+                        
+                
+                    </div>
+        
+
+
+                    <h1 class="heading">Ray-Ban</h1>
+    
+                <div class="swiper featured-slider">
+                
+                        <div class="swiper-wrapper">
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/RAY-1.jpg" alt="">
+                                <h3>RayBan</h3>
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/RAY-2.jpg" alt="">
+                                <h3>RayBan</h3>
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/RAY-3.jpg" alt="">
+                                <h3>RayBan</h3>
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/RAY-4.jpg" alt="">
+                                <h3>RayBan</h3>
+                            
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/RAY-5.jpg" alt="">
+                                <h3>RayBan</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+            
+                            <div class="swiper-slide box">
+                                <img src="Graz/RAY-6.jpg" alt="">
+                                <h3>RayBan</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+
+                            <div class="swiper-slide box">
+                                <img src="Graz/RAY-7.jpg" alt="">
+                                <h3>RayBan</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+
+                            <div class="swiper-slide box">
+                                <img src="Graz/RAY-8.jpg" alt="">
+                                <h3>RayBan</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+
+                            <div class="swiper-slide box">
+                                <img src="Graz/RAY-9.jpg" alt="">
+                                <h3>RayBan</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+
+                            <div class="swiper-slide box">
+                                <img src="Graz/RAY-11.jpg" alt="">
+                                <h3>RayBan</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                
+                        </div>
+                
+                        
+                
+                    </div>
+        
+
+
+                    
+                    <h1 class="heading">Maybach & Hermes</h1>
+    
+                <div class="swiper featured-slider">
+                
+                        <div class="swiper-wrapper">
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/MAY-1.jpg" alt="">
+                                <h3>Maybach</h3>
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/MAY-3.jpg" alt="">
+                                <h3>Maybach</h3>
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/MAY.jpg" alt="">
+                                <h3>Maybach</h3>
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/MyBMEN-1.jpg" alt="">
+                                <h3>Maybach</h3>
+                            
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/MYBMEN-2.jpg" alt="">
+                                <h3>Hermes</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+            
+                    
+                
+                
+                        </div>
+                
+                        
+                
+                    </div>
+        
+    
+   
+                    <h1 class="heading">Lacoste</h1>
+    
+                <div class="swiper featured-slider">
+                
+                        <div class="swiper-wrapper">
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/LACOSTE-1.jpg" alt="">
+                                <h3>Lacoste</h3>
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/LACOSTE-2.jpg" alt="">
+                                <h3>Lacoste</h3>
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/lacoste-3.jpg" alt="">
+                                <h3>Lacoste</h3>
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/lacoste-4.jpg" alt="">
+                                <h3>Lacoste</h3>
+                            
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+                
+                            <div class="swiper-slide box">
+                                <img src="Graz/LACOSTE-5.jpg" alt="">
+                                <h3>Lacoste</h3>
+                               
+                                <div class="price">$40</div>
+                                <a href="#contact" class="btn">order</a>
+                            </div>
+
+                            <div class="swiper-slide box">
+                              <img src="Graz/LACOSTE-6.jpg" alt="">
+                              <h3>Lacoste</h3>
+                             
+                              <div class="price">$40</div>
+                              <a href="#contact" class="btn">order</a>
+                          </div>
+
+                          <div class="swiper-slide box">
+                            <img src="Graz/LACOSTE-7.jpg" alt="">
+                            <h3>Lacoste</h3>
+                           
+                            <div class="price">$40</div>
+                            <a href="#contact" class="btn">order</a>
+                        </div>
+
+                        <div class="swiper-slide box">
+                          <img src="Graz/LACOSTE-8.jpg" alt="">
+                          <h3>Lacoste</h3>
+                         
+                          <div class="price">$40</div>
+                          <a href="#contact" class="btn">order</a>
+                      </div>
+                    
+                
+                
+                        </div>
+                
+                        
+                
+                    </div>
+        
+    
+
+     
+        
+    
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    </section>
+
+    <!--
+      - TESTIMONIALS, CTA & SERVICE
+    -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"> Order Now!</h1>
+      
+      <div class="row">
+         <img src="./assets/images/cat.jpg" alt="">
+      
+          <form action="">
+              <h3>Details</h3>
+              <div class="form-group box">
+                <input
+                  type="text"
+                  name="Name"
+                  id="name"
+                  class="form-control"
+                  placeholder="Your Name *"
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="form-group box">
+                <input
+                  type="text"
+                  name="Email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Your Email *"
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="form-group box">
+                <input
+                  type="number"
+                  name="Phone"
+                  id="phone"
+                  class="form-control"
+                  placeholder="Your Contact Number *"
+                  value=""
+                  required=""
+                />
+              </div>
+              <textarea placeholder="product details(name, product code & colour)" id="message" class="box" cols="30" rows="10"></textarea>
+              <div class="form-group">
+                <input
+                  type="submit"
+                  name="submit"
+                  onclick="gotowhatsapp()"
+                  class="btnSubmit btn-block"
+                  value="Submit to email"
+                />
+              </div>
+           
+          </form>
+      </div>
+      
+      </section>
+
+
+
+
+    <!--
+      - BLOG
+    -->
+
+   
+  
+    
+    <div class="container register">
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            class="tab-pane fade show active text-align form-new"
+            id="home"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            <h3 class="register-heading text-nowrap">Admission Form</h3>
+            <div class="row register-form">
+              <div class="col-md-12">
+                <form autocomplete="off">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      name="Name"
+                      id="name"
+                      class="form-control"
+                      placeholder="Your Name *"
+                      value=""
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      name="Email"
+                      id="email"
+                      class="form-control"
+                      placeholder="Your Email *"
+                      value=""
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="number"
+                      name="Phone"
+                      id="phone"
+                      class="form-control"
+                      placeholder="Your Contact Number *"
+                      value=""
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea placeholder="product details(name,picture code & colour)" id="details" class="box" cols="30" rows="10"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="submit"
+                      name="submit"
+                      onclick="gotowhatsapp()"
+                      class="btnSubmit btn-block"
+                      value="Submit to whatsapp"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <span
+    class="float"
+    onclick="gotowhatsapp()"
+    style="
+      position: fixed;
+      width: 50px;
+      height: 50px;
+      bottom: 120px;
+      right: 10px;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 111;
+    "
+    >
+    <img
+      src="https://trickuweb.com/whatsapp.png"
+      alt=""
+      height="60px"
+      width="60px"
+    />
+    </a>
+    
+    <hr><hr><hr><hr><hr><hr>
+
+    
+   
+    
+
+   
+
+  </main>
+
+
+
+
+
+  <!--
+    - FOOTER
+  -->
+
+  
+  <footer>
+
+    <div class="footer-category">
+
+      <div class="container">
+
+        <h2 class="footer-category-title">Brand directory</h2>
+
+        <div class="footer-category-box">
+
+          <h3 class="category-box-title">Gucci :</h3>
+
+          <a href="#" class="footer-category-link">Round</a>
+          <a href="#" class="footer-category-link">Morden Rectangle</a>
+          <a href="#" class="footer-category-link">Square</a>
+          <a href="#" class="footer-category-link">Oval</a>
+        
+        
+
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Luis Vuitton :</h3>
+          <a href="#" class="footer-category-link">Round</a>
+          <a href="#" class="footer-category-link">Morden Rectangle</a>
+          <a href="#" class="footer-category-link">Square</a>
+          <a href="#" class="footer-category-link">Oval</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Lacoste :</h3>
+
+          <a href="#" class="footer-category-link">Round</a>
+          <a href="#" class="footer-category-link">Morden Rectangle</a>
+          <a href="#" class="footer-category-link">Square</a>
+          <a href="#" class="footer-category-link">Oval</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Cartier :</h3>
+
+          <a href="#" class="footer-category-link">Round</a>
+          <a href="#" class="footer-category-link">Morden Rectangle</a>
+          <a href="#" class="footer-category-link">Square</a>
+          <a href="#" class="footer-category-link">Oval</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Popular Categories</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Women's</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Men's </a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Unisex</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Optical</a>
+          </li>
+
+          
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Products</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Delivery</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Legal Notice</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Secure payment</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              1 Glenroy Crecent, Highlands
+              Harare, Zimbabwe
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+263772288633" class="footer-nav-link">+263 77 228 8633</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:imageeyewear@gmail.com" class="footer-nav-link">imageeyewear@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+             
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+
+
+        <p class="copyright">
+          Copyright &copy; <a href="#">Image Eye Wear</a> Designed By Code-X
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+  
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+</html>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+       var swiper = new Swiper(".featured-slider", {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  loop:true,
+  grabCursor:true,
+  centeredSlides:true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    autoplay: {
+    delay: 9500,
+    disableOnInteraction: false,
+  },
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+   
+    },
+    412: {
+        slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+      
+    },
+    991: {
+      slidesPerView: 3,
+
+    },
+  },
+});
+
+
+
+</script>
+
+
+
+
+
+
+
+<script>
+  function gotowhatsapp() {
+      
+      var name = document.getElementById("name").value;
+      var phone = document.getElementById("phone").value;
+      var email = document.getElementById("email").value;
+      var details = document.getElementById("details").value;
+  
+      var url = "https://wa.me/263772288633?text=" 
+      + "Name: " + name + "%0a"
+      + "Phone: " + phone + "%0a"
+      + "Email: " + email  + "%0a"
+      + "Details: " + details; 
+  
+      window.open(url, '_blank').focus();
+  }
+  </script>
+
+
+
+
